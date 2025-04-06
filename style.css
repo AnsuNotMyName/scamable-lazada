@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.header{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.header-img{
+    padding: 10px;
+    height: 30px;
+    width: auto;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(200,200,200);
+    margin: 0px 10px 0px 10px;
+    width: 500px;
+}
+
+.search-ele{
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border: none;
+    background: none;
+    color: white;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200,200,200);
+    border-radius: 100%;
+    padding: 0px;
+}
+.input{
+    width: calc(100% - 20px);
+    height: 30px;
+    color: black;
+}
+.search-ico{
+    background-color: orange;
+    height: 100%;
+}
+.top-bar{
+    position: fixed;
+    width: 100%;
+}
+
+.banner{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img{
+    width: 1000px;
+    height: auto;
+    
+}
+.feature-box{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 120px;
+    margin: 10px;
+}
+.title-img{
+    position: relative;
+    top: 13px;
+    height: 40px;
+}
+.product-img{
+    position: relative;
+    right: -5px;
+    top: 10px;
+    width: 120px;
+    height: auto;
+}
+.start{
+    position: relative;
+    width: 50%;
+    left: 0px;
+    top: -5px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.left-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.flashsale-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+    padding: 0px 20px 0px 20px;
+}
+.flashsale{
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+.count-box{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+}
+.flashsale-title{
+    margin: 0px 100px 0px 0px;
+    color: red;
+}
+.allpd-btn{
+    color: red;
+    border: 1px solid red;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    line-height: 5px;
+}
+.pd-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 400px;
+    width: 200px;
+    padding: 10px;
+    line-height: 5px;
+    background-color: rgb(238, 238, 238);
+    margin: 10px;
+    transition: all 0.1s ease;
+}
+.pd-box:hover{
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.5);
+}
+.pd-disc-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -30px;
+
+}
+.pd-price{
+    color: red;
+    position: relative;
+    top: -10px;
+}
+.pd-disc{
+    color: gray;
+    text-decoration: line-through;
+    line-height: 0px;
+}
+.pd-disc-percent{
+    color: black;
+    font-size: 16px;
+    line-height: 0px;
+}
+.pd-txt{
+    inline-size: 100%;
+    line-height: 25px;
+    position: relative;
+    top: -25px;
+}
+.pd-row{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    align-items: start; 
+}
+.btn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;    
+    border: none;
+    font-size: 16px;
+}
